@@ -1,0 +1,8 @@
+ E-commerce Observer Pattern Example
+
+Customers (Observers) subscribe to a Product (Subject) that is out of stock.
+
+When the Product becomes available,
+the Product notifies all waiting customers.
+
+Customers get email/SMS notification.

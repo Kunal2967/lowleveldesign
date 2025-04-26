@@ -1,0 +1,12 @@
+The Observer Design Pattern is a behavioral pattern where:
+
+An object can be called as the subject, maintains a list of its dependnts called
+observers
+when the subject state changes,
+all its observers are notified automataclly
+
+very simple real-world example is:
+
+YouTube Channel = Subject
+
+Subscribers = Observers
