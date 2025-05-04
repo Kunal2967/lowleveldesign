@@ -4,7 +4,10 @@ package pattern;
 
 
 public class Strategy {
-//    The strategy design pattern is a behavioral design pattern. It is a tried and tested way of code design that can be used in scenarios where we need to pick up a specific approach (algorithm) from a pool of available related approaches during runtime to achieve something.
+//    The strategy design pattern is a behavioral design pattern.
+//    It is a tried and tested way of code design that can be used in s
+//    cenarios where we need to pick up a specific approach (algorithm) from
+//    a pool of available related approaches during runtime to achieve something.
 
 
     //FIRST WE HAVE TO FOLLOW A STRATEGY DESIGN PATTERN IS TO DELCEARE THE POLICY OR STRATEGY

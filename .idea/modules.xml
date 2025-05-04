@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/LLD.iml" filepath="$PROJECT_DIR$/.idea/LLD.iml" />
       <module fileurl="file://$PROJECT_DIR$/Solid/Solid.iml" filepath="$PROJECT_DIR$/Solid/Solid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lldqa/lldqa.iml" filepath="$PROJECT_DIR$/lldqa/lldqa.iml" />
     </modules>
   </component>
 </project>

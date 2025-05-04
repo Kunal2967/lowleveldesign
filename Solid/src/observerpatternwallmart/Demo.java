@@ -9,7 +9,7 @@ public class Demo {
         iphone.subscribe(c1);
         iphone.subscribe(c2);
 
-        iphone.setAvailable(true);
+       iphone.setAvailable(true);
         //iphone.subscribe(c1);
 
         //iphone.setAvailable(true);
