@@ -2,6 +2,7 @@ package gates;
 
 import parkinglot.ParkingLot;
 import parkinglot.ParkingSpot;
+import parkinglot.Ticket;
 import payment.PaymentService;
 import vechile.Vechile;
 
@@ -13,7 +14,12 @@ public class ExitGate {
         this.paymentService = paymentService;
     }
     public void processExit(int spotNumber,int hourstayed){
-        ParkingSpot spot=parkingLot.getspotNUmber(spotNumber);
+        Ticket ticket = parkingLot.getTicketBySpotNumber(spotNumber);
+        if (ticket == null) {
+            System.out.println("No valid ticket found for spot " + spotNumber);
+            return;
+        }
+        ParkingSpot spot = ticket.getParkingSpot();
         if(spot==null || !spot.isOccupied()){
             System.out.println("Invalid Spot Number or vacant spot");
             return;
