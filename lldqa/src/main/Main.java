@@ -22,7 +22,7 @@ public class Main {
         ExitGate exitGate=new ExitGate(parkingLot,paymentService);
 
         System.out.println("\n===========================");
-        System.out.println("Welcome to Wallmart Parking");
+        System.out.println("Welcome to Wallmart Parking ");
         System.out.println("===========================");
         Boolean exit=false;
         while (!exit){
