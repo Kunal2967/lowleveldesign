@@ -26,6 +26,7 @@ public class ParkingLot {
         }
         return null;
     }
+
     public ParkingSpot parkVechile(Vechile vechile){
         ParkingSpot spot = findavaialblespot(vechile.getVechileType());
         if(spot!=null){
